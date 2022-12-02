@@ -1285,14 +1285,14 @@ header#pt-header.pt-header-style-2 {
 
 header#pt-header.pt-header-style-2 .navbar-brand {
 	margin: 0;
-	line-height: 6;
+	/* line-height: 2; */
 	text-align: center;
 	width: 100%;
-	padding-top: 15px;
+	padding-top: 9px;
 	padding-right: 10px;
+	padding-left: 20px;
 	padding-bottom: 15px;
-	padding-left: 10px;
-	background-color: #CCCCCC;
+	/* border: 4px solid black; */
 }
 
 header#pt-header.pt-header-style-2 .pt-bottom-header {
@@ -1377,8 +1377,8 @@ header#pt-header.pt-header-style-2.pt-header-sticky .navbar-brand {
 header#pt-header.pt-header-style-2 .pt-toggle-btn {
 	line-height: 75px;
 	padding: 22px 25px;
-	background: var(--primary-color);
-	color: #fff;
+	background: black;
+	color: rgb(255, 255, 255);
 }
 
 header#pt-header.pt-header-style-2 .pt-toggle-btn a:before,
@@ -1473,6 +1473,9 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 	.admin-bar header#pt-header.pt-header-style-1.pt-header-sticky {
 		top: 0;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media only screen and (min-device-width:601px) and (max-device-width:768px) {
@@ -1493,6 +1496,9 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 	header#pt-header .pt-bottom-header .navbar .navbar-nav li {
 		margin-right: 20px;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:1399px) {
@@ -1505,7 +1511,7 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 	}
 
 	header#pt-header.pt-header-style-2 .pt-header-diff-block .navbar-brand img {
-		height: 28px;
+		height: 25px;
 	}
 
 	header#pt-header .pt-bottom-header .navbar .navbar-nav li .sub-menu li:hover>.sub-menu {
@@ -1515,6 +1521,9 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 
 	header#pt-header.pt-header-style-1 .pt-bottom-header .navbar .navbar-brand {
 		padding: 20px 15px;
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -1610,6 +1619,9 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 
 	header#pt-header.pt-header-style-1 .pt-bottom-header .pt-shop-btn {
 		margin: 0 30px;
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -1866,6 +1878,9 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 	header#pt-header.pt-header-style-1.pt-has-sticky.pt-header-sticky .pt-bottom-header .navbar .navbar-collapse {
 		top: 76px;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:767px) {
@@ -1908,6 +1923,9 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 	.admin-bar header#pt-header.pt-header-style-1.pt-has-sticky.pt-header-sticky {
 		top: 0;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:479px) {
@@ -1939,6 +1957,9 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 	header#pt-header.pt-header-style-1.pt-has-sticky.pt-header-sticky .pt-bottom-header .navbar .navbar-brand {
 		padding: 20px 18px 20px 0;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 /*===== Header Style 1 Shop =====*/
@@ -1966,6 +1987,9 @@ header#pt-header.pt-header-style-1 .pt-bottom-header .pt-shop-btn {
 	header#pt-header.pt-header-style-2 .pt-bottom-header .navbar-toggler {
 		margin: 12px 15px 0px 0;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:767px) {
@@ -1979,6 +2003,9 @@ header#pt-header.pt-header-style-1 .pt-bottom-header .pt-shop-btn {
 
 	header#pt-header.pt-header-style-2 .pt-bottom-header .navbar-toggler {
 		margin: -70px 15px 0 0;
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -2164,7 +2191,7 @@ Sidebar
 
 .pt-sidebar-header .pt-sidebar-logo {
 	margin-bottom: 15px;
-	height: 150px;
+	height: 50px;
 	margin-left: 35px;
 }
 
@@ -2565,6 +2592,9 @@ Blog Sidebar
 	.sidebar.widget-area {
 		margin-top: 45px;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 /*===== Navigation search =====*/
@@ -2803,6 +2833,9 @@ Error
 	.pt-error-block .pt-errot-text {
 		font-size: 340px;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:767px) {
@@ -2813,11 +2846,17 @@ Error
 	.pt-error-block h2 {
 		font-size: 30px;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:479px) {
 	.pt-error-block .pt-errot-text {
 		font-size: 130px;
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -3057,6 +3096,9 @@ ul.pt-contact {
 
 	.pt-copyright-footer .col-md-6 {
 		padding: 15px 15px 0px 15px
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -3733,17 +3775,26 @@ Process step
 	.d-none-lp .pt-process-step.pt-process-2 .pt-before-img {
 		display: none;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:767px) {
 	.pt-process-step.pt-process-1 {
 		padding: 45px 15px;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:979px) {
 	.pt-process-step.pt-process-2 .pt-before-img {
 		display: none
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -3789,6 +3840,9 @@ Fancy Box
 @media(max-width:1023px) {
 	.pt-fancybox-1 {
 		padding: 60px 15px;
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -4432,6 +4486,9 @@ Testimonial
 		top: 30px;
 		left: 15px;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:767px) {
@@ -4443,6 +4500,9 @@ Testimonial
 		top: 0;
 		left: 0;
 		position: relative;
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -4779,6 +4839,9 @@ Pricing Plan
 	.pt-price-block-2 .pt-bg-effect {
 		width: 135%;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 /*================================================
@@ -4991,6 +5054,9 @@ isotope Portfolio
 	.pt-masonry .ipt-lg-3 {
 		width: 33.33%;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:1023px) {
@@ -5006,6 +5072,9 @@ isotope Portfolio
 	.pt-col-4,
 	.pt-masonry .ipt-lg-3 {
 		width: 50%;
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -5024,11 +5093,18 @@ isotope Portfolio
 		width: 100%;
 		padding: 0 0 30px;
 	}
+
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:479px) {
 	.pt-filters .pt-filter-button-group ul li {
 		margin-bottom: 15px;
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -5163,12 +5239,18 @@ isotope Portfolio
 		width: 50%;
 		margin-right: 0;
 	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
 }
 
 @media(max-width:767px) {
 	.pt-porfolio-info .pt-info-list li {
 		width: 100%;
 		margin-right: 0;
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -5661,6 +5743,9 @@ BMI
 	.pf-bmi-content,
 	.pf-bmi-info {
 		margin-left: 0;
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
 	}
 }
 
@@ -6816,3 +6901,8 @@ pt-classes
 	height: 50vh;
 	width: 50vh;
 }
+.logo-img1{
+	width: 100px !important;
+	height: 60px !important;
+}
+ 
