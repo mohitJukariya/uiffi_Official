@@ -1499,6 +1499,9 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 	.pt-toggle-btn {
 		background-color: #000000;
 	}
+	header#pt-header.pt-header-style-2 .pt-header-diff-block .navbar-brand img {
+		height: 50px;
+	}
 }
 
 @media(max-width:1399px) {
@@ -1511,7 +1514,7 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 	}
 
 	header#pt-header.pt-header-style-2 .pt-header-diff-block .navbar-brand img {
-		height: 25px;
+		height: 50px;
 	}
 
 	header#pt-header .pt-bottom-header .navbar .navbar-nav li .sub-menu li:hover>.sub-menu {
@@ -1622,6 +1625,9 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 	}
 	.pt-toggle-btn {
 		background-color: #000000;
+	}
+	header#pt-header.pt-header-style-2 .pt-header-diff-block .navbar-brand img {
+		height: 50px;
 	}
 }
 
@@ -5064,6 +5070,9 @@ isotope Portfolio
 	}
 	.pt-toggle-btn {
 		background-color: #000000;
+	}
+	header#pt-header.pt-header-style-2 .pt-header-diff-block .navbar-brand img {
+		height: 50px;
 	}
 }
 
