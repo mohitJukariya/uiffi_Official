@@ -2191,8 +2191,16 @@ Sidebar
 
 .pt-sidebar-header .pt-sidebar-logo {
 	margin-bottom: 15px;
+	height: 150px;
+	margin-left: 65px;
+}
+/* .pt-sidebar-logo img{
 	height: 50px;
-	margin-left: 35px;
+	width: 50px;
+} */
+
+.contactus {
+	font-size: small;
 }
 
 .pt-sidebar h5 {
