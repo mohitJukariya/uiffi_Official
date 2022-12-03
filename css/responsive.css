@@ -69,42 +69,7 @@ Design and Developed by: Peaceful Themes
     margin-top: 23%;
 }
 
-@media(min-width:1199px) {
-    .pricing-plan1 { padding: 90px 0px; }
-    section { padding: 90px 0px; }
-    .container { max-width: 960px; }
-    .img1 { position: relative;top: 0; bottom: 0; }
-    .img2 { top: 0%; }
-    .img3 { position: absolute; bottom: 0; }
-    .pricing-plan { margin-top: 220px; margin-bottom: 130px; padding: 0px 0px 0px 0px; }
-    .img-7 { display: none; }
-    .client { margin-top: 0; }
-    .form-fields { margin-top: 10px; }
-    .img-4 { position: absolute; bottom: 0; left: 0%; }
-    .circle-progress .pt-circle-progress .pt-progress-count { left: 28%; }
-    .pt-subscribe-from form input[type="submit"] { margin-top: 10px; }
-    .counter { left: -15px; }
-    .counter3 { padding: 130px 0px; }
-    .pt-video-icon1 { left: 30%; }
-    .circle-progress .pt-circle-progress h6 { margin-top: 0; margin-left: -45%; }
-    .img-5 { height: 700px; width: 100%; position: relative; }
-    .pt-button2{margin-left: 70px;margin-right: -70px }
-    .counter5 .pt-counter-prefix {
-    margin-top: -25%;
-    margin-left: 51%;
-    display: block;
-    font-size: 56px;
-    font-weight: 400;
-    color: var(--primary-color);
-    line-height: 1;}
-    .yoga-maintaince{ padding: 0px 0px 90px 0px; }
-    .counter4{ padding: 90px 0px; }
-    .pt-classes:after{ right: 100%; }
-    .pt-icon-box-section6 .pt-icon-box-content{ margin-top: 10px; }
-  .counter4 {
-    padding: 90px 0px;
-    margin-top: 23%;
-}
+
 
 .img-9 { width: 100%; }
 .img-10{ width: 100%; }
@@ -135,8 +100,13 @@ Design and Developed by: Peaceful Themes
     right: 0%;
 }
 
-}
 
+}
+@media only screen and (max-width: 1199px) and (min-width: 767px) {
+    .detailuiffi {
+        margin-top: 250px;
+    }
+}
 
 @media(max-width:1023px) {
     .container { max-width: 100%; }
