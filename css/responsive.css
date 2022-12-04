@@ -102,9 +102,48 @@ Design and Developed by: Peaceful Themes
 
 
 }
-@media only screen and (max-width: 1199px) and (min-width: 767px) {
+@media only screen and (max-width: 1199px) and (min-width: 980px) {
     .detailuiffi {
-        margin-top: 250px;
+        margin-top: 100px !important;
+    }
+    .img1 {
+        height: 450px;
+        width: 650px;
+    }
+    .img2 {
+        height: 900px;
+        width: 590px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 857px) {
+    .detailuiffi {
+        margin-top: 100px !important;
+    }
+    .img1 {
+        height: 400px;
+        width: 500px;
+    }
+    .img2 {
+        height: 800px;
+        width: 590px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 857px) and (min-width: 767px) {
+    .detailuiffi {
+        margin-top: 100px !important;
+    }
+    .img1 {
+        height: 400px;
+        width: 480px;
+    }
+    .img2 {
+        height: 800px;
+        width: 490px;
+        margin-right: 40px;
     }
 }
 
