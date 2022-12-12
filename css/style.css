@@ -1504,7 +1504,18 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 		width: 220px;
 	}
 }
-
+@media(min-width:1599px) {
+	header#pt-header .pt-bottom-header .navbar .navbar-nav li {
+		margin-right: 20px;
+	}
+	.pt-toggle-btn {
+		background-color: #000000;
+	}
+	header#pt-header.pt-header-style-2 .pt-header-diff-block .navbar-brand img {
+		height: 70px;
+		width: 220px;
+	}
+}
 @media(max-width:1399px) {
 	header#pt-header.pt-header-style-1 .pt-header-info-box {
 		margin: 0 15px 0 30px;
